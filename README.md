@@ -59,8 +59,8 @@ print('RMSE =',rmse)
 ```
 
 ## Output:
-![Best_fit_line](exp_2_op1.png)
 ![metrics](exp_2_op2.png)
+![Best_fit_line](exp_2_op1.png)
 
 
 ## Result:
