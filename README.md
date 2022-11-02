@@ -8,10 +8,13 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Read the given dataset
+2. Assign values for x and y and plot them
+3. Split the dataset into train and test data
+4. Import linear regression and train the data
+5. find Y predict
+6. Plot train and test data
+7. Calculate mse,mae,rmse
 
 ## Program:
 ```
@@ -25,6 +28,8 @@ RegisterNumber:  212220040171
 import pandas as pd
 import numpy as np
 dataset=pd.read_csv('/content/student_scores.csv')
+dataset.head()
+dataset.tail()
 x=dataset.iloc[:,:-1].values
 y=dataset.iloc[:,1].values
 print(x)
@@ -59,6 +64,9 @@ print('RMSE =',rmse)
 ```
 
 ## Output:
+![head,tail](op_new3.png)
+![scatter](op_new1.png)
+![array](op_new2.png)
 ![metrics](exp_2_op2.png)
 ![Best_fit_line](exp_2_op1.png)
 
