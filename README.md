@@ -54,6 +54,8 @@ plt.title('Test set (H vs S)')
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
+print(y_predict)
+print(y_test)
 mse=mean_squared_error(y_test,y_predict)
 print('MSE =',mse)
 mae=mean_absolute_error(y_test,y_predict)
@@ -65,10 +67,11 @@ print('RMSE =',rmse)
 
 ## Output:
 ![head,tail](op_new3.png)
-![scatter](op_new1.png)
 ![array](op_new2.png)
 ![metrics](exp_2_op2.png)
+![predict](op_pred.png)
 ![Best_fit_line](exp_2_op1.png)
+
 
 
 ## Result:
